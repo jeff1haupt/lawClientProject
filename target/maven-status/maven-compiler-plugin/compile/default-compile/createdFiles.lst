@@ -1,0 +1,6 @@
+com\promineotech\lawClientProject\entity\Lawyer.class
+com\promineotech\lawClientProject\entity\TimeEntry.class
+com\promineotech\lawClientProject\entity\CaseMatter.class
+com\promineotech\lawClientProject\entity\PracticeArea.class
+com\promineotech\lawClientProject\App.class
+com\promineotech\lawClientProject\entity\Client.class
