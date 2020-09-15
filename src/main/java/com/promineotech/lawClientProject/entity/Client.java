@@ -1,5 +1,9 @@
 package com.promineotech.lawClientProject.entity;
 
+import java.util.Set;
+
+import com.promineotech.lawClientProject.entity.CaseMatter;
+
 public class Client {
 	
 	private Long id; 
@@ -11,6 +15,7 @@ public class Client {
 	private String zipCode;
 	private String phoneNumber;
 	private String email;
+	private Set<CaseMatter> CaseMatter;
 	
 	public Long getId() {
 		return id;
@@ -82,6 +87,14 @@ public class Client {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public Set<CaseMatter> getCaseMatter() {
+		return CaseMatter;
+	}
+
+	public void setCaseMatter(Set<CaseMatter> caseMatter) {
+		CaseMatter = caseMatter;
 	}
 	
 	
