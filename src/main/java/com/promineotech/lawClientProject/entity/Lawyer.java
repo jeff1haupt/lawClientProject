@@ -1,5 +1,7 @@
 package com.promineotech.lawClientProject.entity;
 
+import java.util.Set;
+
 public class Lawyer {
 	
 	private Long id; 
@@ -8,6 +10,8 @@ public class Lawyer {
 	private String emailAddress;
 	private String phoneNumber;
 	private double hourlyRate;
+	private Set<CaseMatter> CaseMatter;
+	private Set<Client> Client;
 	
 	public Long getId() {
 		return id;
